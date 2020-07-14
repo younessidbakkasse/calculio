@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #EAEBF3;
+    background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
 }
 
 .card {
@@ -12,8 +12,7 @@ body {
     width: 25%;
     height: 360px;
     margin: 120px auto;
-    box-shadow: -2px -2px 10px rgba(255, 255, 255, .8), 6px 6px 10px rgba(0, 0, 0, .2);
-}
+    box-shadow: 4px 2px 15px rgba(136, 165, 191, .5), -2px -2px 15px white;}
 
 form {
     display: inline-block;
@@ -82,5 +81,5 @@ input[type=button] {
     margin: 15px auto;
 }
 input[type=button]:hover{
-
+    transform: scale(1.1);
 }  
