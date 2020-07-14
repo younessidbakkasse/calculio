@@ -67,7 +67,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=button] {
+button {
     border: none;
     border-radius: 15px;
     box-shadow: 0px 6px 15px rgba(255, 132, 121, 1);
@@ -80,6 +80,6 @@ input[type=button] {
     cursor: pointer;
     margin: 15px auto;
 }
-input[type=button]:hover{
+button:hover{
     transform: scale(1.1);
 }  
