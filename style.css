@@ -83,7 +83,7 @@ button:hover{
 } 
 
 /*responsiveness*/
-@media all and (max-width: 700px){
+@media all and (min-width: 700px){
     .card {
         box-shadow: 4px 2px 15px rgba(136, 165, 191, .5), -2px -2px 15px white;
         width: 25%;
