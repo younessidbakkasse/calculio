@@ -8,9 +8,8 @@ body {
 }
 
 .card {
-    border-radius: 30px;
     height: 360px;
-    margin: 200px auto;
+    margin: 160px auto;
 }
 form {
     display: inline-block;
@@ -85,6 +84,7 @@ button:hover{
 /*responsiveness*/
 @media (min-width: 900px){
     .card {
+        border-radius: 30px;
         box-shadow: 4px 2px 15px rgba(136, 165, 191, .5), -2px -2px 15px white;
         width: 25%;
         margin: 120px auto;
@@ -94,6 +94,6 @@ button:hover{
 @media (min-width: 500px) and (max-width: 900px){
     .card {
         width: 50%;
-        margin: 160px auto;
+        margin: 140px auto;
     }
 }
