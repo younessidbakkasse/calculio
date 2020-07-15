@@ -9,7 +9,7 @@ body {
 
 .card {
     height: 360px;
-    margin: 160px auto;
+    margin: 140px auto;
 }
 form {
     display: inline-block;
@@ -94,6 +94,6 @@ button:hover{
 @media (min-width: 500px) and (max-width: 900px){
     .card {
         width: 50%;
-        margin: 140px auto;
+        margin: 130px auto;
     }
 }
