@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculio : online age to days calculator</title>
+    <title>Calculio | online age calculator</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 <body>
     <main class="card"> 
         <div class="logo"><h2>calculio</h2></div>
-        <form action="#">
-            <input type="number" id="birthyear" name="birthyear" placeholder="Enter your birthyear" required>
-            <button type="submit" onclick="calculate()">CALCULATE</button>
-        </form>
+        <div class="form">
+            <div id="results"></div>
+            <input type="number" id="birthyear" placeholder="Enter your birthyear" required>
+            <button id="calcule" type="submit" onclick="calculate()">CALCULATE</button>
+            <button id="reset" type="reset" onclick="reset()">RESET</button>
+        </div>
         <p>You want a precise calculator? <a href="https://www.calculator.net/age-calculator.html" target="_blank">click here</a></p>
     </main>
     <script src="script.js"></script>   

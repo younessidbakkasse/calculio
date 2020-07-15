@@ -11,7 +11,7 @@ body {
     height: 360px;
     margin: 160px auto;
 }
-form {
+.form {
     display: inline-block;
     margin: 20px auto 30px;
     text-align: center;
@@ -26,6 +26,7 @@ a {
     color: #FF8479;
 }
 
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -34,9 +35,15 @@ p {
     font-size: 11px;   
     text-align: center;
 }
+
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px;
+    color: #BEB9CB
+}
+
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
     color: #FF8479;
     font-size: 50px;   
     letter-spacing: -4px; 
@@ -80,6 +87,10 @@ button {
 button:hover{
     transform: scale(1.1);
 } 
+
+#reset {
+    display: none;
+}
 
 /*responsiveness*/
 @media (min-width: 900px){
