@@ -4,13 +4,13 @@
 }
 
 body {
-    background: linear-gradient(318.32deg, #C3D1E4 0%, #DDE7F3 55%, #D4E0ED 100%);
+    background-color: #DDE7F3;
 }
 
 .card {
     border-radius: 30px;
     height: 360px;
-    margin: 120px auto;
+    margin: 200px auto;
 }
 form {
     display: inline-block;
@@ -83,9 +83,17 @@ button:hover{
 } 
 
 /*responsiveness*/
-@media all and (min-width: 700px){
+@media (min-width: 900px){
     .card {
         box-shadow: 4px 2px 15px rgba(136, 165, 191, .5), -2px -2px 15px white;
         width: 25%;
+        margin: 120px auto;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+    .card {
+        width: 50%;
+        margin: 160px auto;
     }
 }
