@@ -38,8 +38,8 @@ p {
 
 h3 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 25px;
-    color: #BEB9CB
+    font-size: 24px;
+    color: #aca7b9;
 }
 
 h2 {
@@ -87,10 +87,6 @@ button {
 button:hover{
     transform: scale(1.1);
 } 
-
-#reset {
-    display: none;
-}
 
 /*responsiveness*/
 @media (min-width: 900px){

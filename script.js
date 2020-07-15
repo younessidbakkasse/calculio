@@ -7,10 +7,4 @@ function calculate() {
     document.getElementById('results').appendChild(h3);
     document.getElementById("birthyear").style.display = "none";
     document.getElementById("calcule").style.display = "none";
-    document.getElementById("reset").style.display = "block";
-}
-
-function reset(){
-    document.getElementById('results').remove;
-    document.getElementById('birthyear').style.display = "block";
 }
