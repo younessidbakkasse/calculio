@@ -1,6 +1,7 @@
 # Calculio: funny online calculator :zap:
 
 My first time working with javascript on a web developement project.
+to try it live : https://bit.ly/calculio
 
 ## Will I continue developing this calculator :checkered_flag: :
 
