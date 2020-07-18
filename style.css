@@ -22,7 +22,7 @@ body {
     padding: 30px 0;
 }
 
-#results {
+.results {
     margin: auto;
     width: 80%;
 }
@@ -39,12 +39,6 @@ p {
     letter-spacing: -1px;
     font-size: 11px;   
     text-align: center;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 24px;
-    color: #aca7b9;
 }
 
 h2 {
