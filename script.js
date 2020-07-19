@@ -11,5 +11,5 @@ function calculate() {
       }
 
     var ele = document.getElementById("calcule");
-    ele.textContent = "You are " + age + " days old.";
+    ele.textContent = "You are " + age + " days old";
 }
