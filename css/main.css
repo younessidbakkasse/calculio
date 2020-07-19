@@ -20,7 +20,11 @@ h2{
 
 header {
     padding: 2em;
-    
+    display: flexbox;
+}
+
+.logo {
+    float: right;
 }
 
 div img {
