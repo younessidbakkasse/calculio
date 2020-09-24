@@ -12,3 +12,7 @@ Hell Yes!! of course why not, I will add many functionnalities down the road so 
 
 Of course.
 Dont Hesitate to ask for help also thanks for reading this. Have a great day!
+
+
+Version 1.1 is on the way! 
+
