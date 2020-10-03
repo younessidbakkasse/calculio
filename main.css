@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #DDE7F3;
+  overflow: hidden;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 22px 18px;
+}
+
+.card {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .form {
+  width: 50%;
+}
+
+.card .image {
+  width: 50%;
+}
+
+.down-bar {
+  width: 100%;
+  height: 10vh;
+  background-color: #FF897E;
+}
+/*# sourceMappingURL=main.css.map */

@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculio | Funny online calculator</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 <body>
-    <header class="header">
-        <div class="header__logo"><h2>calculio.</h2></div>
-        <div class="header__link"><a href="#"><img src="hamburger-menu.svg" alt="hamburger menu"></a></div>        
-    </header>
-    <section class="banner">
-        <h2 class="homepage-hero"></h2>
-    </section>
-    <main class="card"> 
+    <div class="header">
+        <a href="/"><h2 class="header__logo">calculio.</h2></a>
+    </div>
+    <div class="card"> 
         <div class="form">
             <input type="number" id="birthyear" placeholder="Enter your birthyear" required>
             <button id="calcule" type="submit" onclick="calculate()">CALCULATE</button>
+            <p>You want a precise calculator? <a href="https://www.calculator.net/age-calculator.html" target="_blank">click here</a></p>
         </div>
-        <p>You want a precise calculator? <a href="https://www.calculator.net/age-calculator.html" target="_blank">click here</a></p>
-    </main>
+        <div class="image">
+            <img src="Space.svg" width="800px" alt="Astronaut Image">
+        </div>  
+    </div>
+    <div class="down-bar"></div>
     <script src="script.js"></script>   
 </body>
 </html>

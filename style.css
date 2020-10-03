@@ -4,19 +4,20 @@ body {
     margin: 0;
 }
 
-.header {
-    padding: 10px 10px;
-    height: fit-content;
+a {
+    text-decoration: none;
 }
+
+.header {
+    display: flex;
+    padding: 20px 20px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}       
 
 .header__logo {
     float: left;
-    max-width: 50%;
-}
-
-.header__link {
-    float: right;
-    max-width: 50%;
 }
 
 .card {
@@ -95,13 +96,11 @@ button:hover{
     transform: scale(1.1);
 } 
 
-/*responsiveness
 @media (min-width: 900px){
     .card {
         border-radius: 30px;
         box-shadow: 4px 2px 15px rgba(136, 165, 191, .5), -2px -2px 15px white;
-        width: 25%;
-        margin: 120px auto;
+        width: 50%;
     }
 }
 
