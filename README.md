@@ -1,11 +1,7 @@
 # Calculio: funny online calculator :zap:
 
-My first time working with javascript on a web developement project.
-to try it live : https://bit.ly/calculio
-
-## Will I continue developing this calculator :checkered_flag: :
-
-Hell Yes!! of course why not, I will add many functionnalities down the road so stay tunned for updates on the project.
+My first web project and first time working with javascript.
+To try it live : https://bit.ly/calculio
 
 
 ## Is it mobile first ? :pencil2: :
@@ -14,5 +10,5 @@ Of course.
 Dont Hesitate to ask for help also thanks for reading this. Have a great day!
 
 
-Version 1.1 is on the way! 
+Version 1.1 is on the way when I get some free time! 
 
